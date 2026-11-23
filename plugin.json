@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "aida-house-identidade-comunicacao",
+  "version": "0.1.0",
+  "description": "Revisar mensagens, jornadas, interfaces e identidade preservando acesso, fontes e autonomia.",
+  "author": {
+    "name": "Karin Huke"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Aida House Identidade e Comunicação",
+        "shortDescription": "Identidade e comunicação",
+        "longDescription": "Revisar mensagens, jornadas, interfaces e identidade preservando acesso, fontes e autonomia.",
+        "developerName": "Karin Huke",
+        "category": "Productivity",
+        "capabilities": []
+      }
+    }
+  }
+}
